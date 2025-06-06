@@ -555,8 +555,4 @@ public class Game extends JPanel implements KeyListener {
 
     @Override
     public void keyTyped(KeyEvent e) {}
-
-    public static void main(String[] args) {
-        new Game();
-    }
 }
