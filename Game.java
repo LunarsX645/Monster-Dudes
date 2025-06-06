@@ -73,7 +73,7 @@ public class Game extends JPanel implements KeyListener {
     private static final int ROAD_WIDTH = 48; // approx 1.5x avatar width (32)
 
     // Boss Battle specific variables
-    private int battlesWon = 9;
+    private int battlesWon = 0;
     private static final int BOSS_THRESHOLD = 10;
     private boolean bossBattleAvailable = false;
     private JDialog bossPromptDialog; // To keep track of the boss prompt dialog
